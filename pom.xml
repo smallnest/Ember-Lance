@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.colobu</groupId>
+	<artifactId>ember-lance</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>Ember Lance - Dashboard implemented with ember, d3 and other third-party libraries</name>
+
+    <properties>
+		<maven-sortpom.plugin.version>2.2.1</maven-sortpom.plugin.version>
+		<maven-war-plugin.version>2.2</maven-war-plugin.version>
+        <exec-maven-plugin.version>1.2.1</exec-maven-plugin.version>
+        <grunt-plugin.version>1.2.2</grunt-plugin.version>
+    </properties>
+
+	<developers>
+	  <developer>
+		<id>1</id>
+		<name>smallnest</name>
+		<email>smallnest@gmail.com</email>
+		<organization>colobu</organization>
+		<organizationUrl>http://www.colobu.com</organizationUrl>
+	  </developer>
+	</developers>
+
+    <dependencies>
+        
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${exec-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>bower-test</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>bower</executable>
+                    <arguments>
+                        <argument>install</argument>
+                    </arguments>
+                    <workingDirectory>${basedir}/test</workingDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>pl.allegro</groupId>
+                <artifactId>grunt-maven-plugin</artifactId>
+                <version>${grunt-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>grunt</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>create-resources</goal>
+                            <goal>npm</goal>
+                            <goal>grunt</goal>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
+                    <!-- run the grunt goal that executes bower install for the app directory-->
+                    <execution>
+                        <id>grunt-app-bower</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>bower</goal>
+                        </goals>
+                        <configuration>
+                            <gruntBuildDirectory>${basedir}</gruntBuildDirectory>
+                        </configuration>
+                    </execution>
+                    <!-- run the grunt goal that executes bower install for the test directory -->
+                    <execution>
+                        <id>grunt-test-bower</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>bower</goal>
+                        </goals>
+                        <configuration>
+                            <gruntBuildDirectory>${basedir}/test</gruntBuildDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>${basedir}</directory>
+                            <includes>
+                                <include>node_modules/**</include>
+                                <include>temp/**</include>
+                                <include>dist/**</include>
+                                <include>.sass-cache/**</include>
+                                <include>.tmp/**</include>
+                                <include>app/bower_components/**</include>
+                                <include>test/bower_components/**</include>
+                            </includes>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.google.code.sortpom</groupId>
+                <artifactId>maven-sortpom-plugin</artifactId>
+				<version>${maven-sortpom.plugin.version}</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+				<version>${maven-war-plugin.version}</version>
+                <configuration>
+                    <nonFilteredFileExtensions>
+                        <nonFilteredFileExtension>xxx</nonFilteredFileExtension>
+                    </nonFilteredFileExtensions>
+                    <webResources>
+                        <resource>
+                            <directory>dist</directory>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

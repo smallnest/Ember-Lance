@@ -1,0 +1,9 @@
+// matches definition in bootstrap-theme.min.scss
+@mixin dropdown-link-hover {
+    color: white;
+    background-color: #357ebd;
+    background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+    background-repeat: repeat-x;
+}
+
+$input-color: #555;

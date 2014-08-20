@@ -1,0 +1,15 @@
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+@import "bootstrap-sass/lib/bootstrap";
+
+@import 'bootstrap-theme.setup.scss';
+@import 'bootstrap-theme.min.scss';
+@import '_sb-admin-2.scss';
+@import '_chart.scss';
+
+$fa-font-path: "/bower_components/font-awesome/fonts/";
+@import "font-awesome/scss/font-awesome";
+
+/* Put your CSS here */
+html, body {
+    margin: 0 0;
+}

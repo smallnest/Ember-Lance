@@ -1,0 +1,18 @@
+{
+  "name": "ember-d3-dashboard",
+  "version": "1.0.0",
+  "dependencies": {
+    "ember": "1.7.0",
+    "handlebars": "1.2.1",
+    "ember-data": "1.0.0-beta.9",
+    "bootstrap-sass": "~3.0.0",
+    "font-awesome": "~4.1.0",
+    "metisMenu": "~1.1.1",
+    "d3": "~3.4.11",
+    "nvd3": "~1.1.15-beta",
+    "ember-addons.bs_for_ember": "~0.7.0"
+  },
+  "devDependencies": {
+    "ember-mocha-adapter": "0.1.2"
+  }
+}
