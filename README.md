@@ -40,6 +40,9 @@ If you want to build a war you can run:
 ## Roadmap
 
 ### 1.0.1
+1. [ember-validations](https://github.com/dockyard/ember-validations): Validations for Ember Objects  
+2. [addepar ember-widgets](https://github.com/addepar/ember-widgets):A powerful and easy to use component library for Ember.js  
+3. [ember-animated-outlet](https://github.com/billysbilling/ember-animated-outlet):  . Ember Animated Outlet is a plug'n'play module to support animated route transitions in Ember.js. Other similar frameworks are: <https://github.com/ef4/ember-animation-demo> and <https://github.com/gigafied/ember-animate>  
 
 
 ### 1.0.0
