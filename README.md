@@ -17,7 +17,7 @@ I would appreciate it if you could add a link about [Ember-Lance](https://github
 
 I welcome your comments and suggestions whether you are a programmer or a customer. 
 
-![snapshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/snapshot.png)
+![screenshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/snapshot.png)
 
 
 ## Build
@@ -40,6 +40,7 @@ If you want to build a war you can run:
 ## Roadmap
 
 ### 1.0.1
+1. [cubism](https://github.com/square/cubism):  a D3 plugin for time series visualization  
 1. [ember-validations](https://github.com/dockyard/ember-validations): Validations for Ember Objects  
 2. [addepar ember-widgets](https://github.com/addepar/ember-widgets):A powerful and easy to use component library for Ember.js  
 3. [ember-animated-outlet](https://github.com/billysbilling/ember-animated-outlet):  . Ember Animated Outlet is a plug'n'play module to support animated route transitions in Ember.js. Other similar frameworks are: <https://github.com/ef4/ember-animation-demo> and <https://github.com/gigafied/ember-animate>  
@@ -57,3 +58,5 @@ create the first version with initial codes.
 8. [bs_for_ember](https://github.com/ember-addons/bootstrap-for-ember): Bootstrap for Ember.js is a collection of UI components based on Twitter Bootstrap v3 for Ember.js  
 9. Others: npm, bower, grunt and their libraries  
 
+## References
+* [Node, Grunt, Bower and Yeoman – A Modern web dev’s Toolkit](http://www.javacodegeeks.com/2014/08/node-grunt-bower-and-yeoman-a-modern-web-devs-toolkit.html)
