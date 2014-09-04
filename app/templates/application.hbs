@@ -46,13 +46,28 @@
                             {{#link-to 'dashboard'}}<i class="fa fa-dashboard fa-fw"></i> Dashboard{{/link-to}}
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            {{#link-to 'ui'}}<i class="fa fa-bar-chart-o fa-fw"></i> UI Elelements<span class="fa arrow"></span>{{/link-to}}
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{#link-to 'dashboard'}}nvd3 Charts{{/link-to}}
+                                    {{#link-to 'ui.table'}}Table{{/link-to}}
                                 </li>
                                 <li>
-                                    {{#link-to 'dashboard'}}c3.js Charts{{/link-to}}
+                                    {{#link-to 'ui.panel'}}Panel{{/link-to}}
+                                </li>
+								<li>
+                                    {{#link-to 'ui.button'}}Button{{/link-to}}
+                                </li>
+								<li>
+                                    {{#link-to 'ui.notification'}}Notification{{/link-to}}
+                                </li>
+								<li>
+                                    {{#link-to 'ui.typography'}}Typography{{/link-to}}
+                                </li>
+								<li>
+                                    {{#link-to 'ui.grid'}}Grid{{/link-to}}
+                                </li>
+								<li>
+                                    {{#link-to 'ui.form'}}Form{{/link-to}}
                                 </li>
                             </ul>
                         </li>

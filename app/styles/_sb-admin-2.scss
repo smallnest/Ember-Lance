@@ -140,28 +140,34 @@ body {
 
 .btn-outline {
     color: inherit;
+	background-image: none;
     background-color: transparent;
     transition: all .5s;
 }
 
 .btn-primary.btn-outline {
     color: #428bca;
+	text-shadow: none;
 }
 
 .btn-success.btn-outline {
     color: #5cb85c;
+	text-shadow: none;
 }
 
 .btn-info.btn-outline {
     color: #5bc0de;
+	text-shadow: none;
 }
 
 .btn-warning.btn-outline {
     color: #f0ad4e;
+	text-shadow: none;
 }
 
 .btn-danger.btn-outline {
     color: #d9534f;
+	text-shadow: none;
 }
 
 .btn-primary.btn-outline:hover,

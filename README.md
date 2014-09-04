@@ -60,3 +60,11 @@ create the first version with initial codes.
 
 ## References
 * [Node, Grunt, Bower and Yeoman – A Modern web dev’s Toolkit](http://www.javacodegeeks.com/2014/08/node-grunt-bower-and-yeoman-a-modern-web-devs-toolkit.html)
+* [AngularJS vs. Backbone.js vs. Ember.js](http://www.airpair.com/js/javascript-framework-comparison?utm_source=javascriptweekly&utm_medium=email)
+[前端开发框架三剑客—AngularJS VS. Backone.js VS.Ember.js](http://www.csdn.net/article/2014-08-27/2821409-javascript-framework-comparison)
+
+## FAQ
+1. why not add dropdown submenu at the top instead of left sidebar?
+>Submenus just don't have much of a place on the web right now, especially the mobile web. They will be removed with 3.0
+>
+><https://github.com/twbs/bootstrap/pull/6342>
