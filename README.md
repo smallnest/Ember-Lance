@@ -65,6 +65,7 @@ create the first version with initial codes.
 
 ## FAQ
 1. why not add dropdown submenu at the top instead of left sidebar?
->Submenus just don't have much of a place on the web right now, especially the mobile web. They will be removed with 3.0
+
+> Submenus just don't have much of a place on the web right now, especially the mobile web. They will be removed with 3.0
 >
-><https://github.com/twbs/bootstrap/pull/6342>
+> <https://github.com/twbs/bootstrap/pull/6342>
