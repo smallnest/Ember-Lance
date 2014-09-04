@@ -43,7 +43,12 @@
                             </div>
                         </li>
                         <li>
-                            {{#link-to 'dashboard'}}<i class="fa fa-dashboard fa-fw"></i> Dashboard{{/link-to}}
+                            {{#link-to 'dashboard'}}<i class="fa fa-dashboard fa-fw"></i> Dashboard<span class="fa arrow"></span>{{/link-to}}
+							 <ul class="nav nav-second-level">
+                                <li>
+                                    {{#link-to 'dashboard.cubism'}}Cubism{{/link-to}}
+                                </li>
+							 </ul>
                         </li>
                         <li>
                             {{#link-to 'ui'}}<i class="fa fa-bar-chart-o fa-fw"></i> UI Elelements<span class="fa arrow"></span>{{/link-to}}

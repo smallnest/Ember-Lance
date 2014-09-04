@@ -2,7 +2,7 @@
 
 App.Router.map(function () {
     this.resource('dashboard', { path: 'dashboard' }, function () {
-
+		this.route('cubism', { path: 'cubism' }, function () {});
     });
 	this.resource('ui', { path: 'ui' }, function () {
 		this.route('table', { path: 'table' }, function () {});

@@ -10,7 +10,8 @@
     "metisMenu": "~1.1.1",
     "d3": "~3.4.11",
     "nvd3": "~1.1.15-beta",
-    "ember-addons.bs_for_ember": "~0.7.0"
+    "ember-addons.bs_for_ember": "~0.7.0",
+    "cubism": "~1.6.0"
   },
   "devDependencies": {
     "ember-mocha-adapter": "0.1.2"

@@ -1,7 +1,6 @@
 /*global App, Ember, $ */
-App.DashboardView = Ember.View.extend({
-    templateName: 'dashboard',
-
+App.DashboardIndexView = Ember.View.extend({
+    
     didInsertElement: function () {
         this._super();
         var controller = this.get('controller');

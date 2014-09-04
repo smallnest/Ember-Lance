@@ -1,6 +1,6 @@
 /*global Ember, App, Bootstrap, Bootstrap.NM, nv, d3 */
 
-App.DashboardController = Ember.ObjectController.extend({
+App.DashboardIndexController = Ember.ObjectController.extend({
     memory_usage: 50,
     memory_max: 1024,
     memory_commit: 1024,
@@ -23,7 +23,7 @@ App.DashboardController = Ember.ObjectController.extend({
         /*jslint nomen:true*/
         this._super();
         /*jslint nomen:false*/
-        console.debug('DashboardController.js init');
+        console.debug('DashboardIndexController.js init');
     },
 
 
