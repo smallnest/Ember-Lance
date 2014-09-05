@@ -17,8 +17,8 @@ I would appreciate it if you could add a link about [Ember-Lance](https://github
 
 I welcome your comments and suggestions whether you are a programmer or a customer. 
 
-![screenshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/snapshot.png)
-
+![screenshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/screenshot2.png)
 
 ## Build
 you should install [compass](http://compass-style.org/install/) first. Compass is a Sass-based Stylesheet Framework that streamlines the creation and maintenance of CSS.
@@ -55,8 +55,9 @@ create the first version with initial codes.
 5. [Bootstrap](http://getbootstrap.com/): Actually Ember-Lance uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass)   
 6. [D3.js](http://d3js.org/): Data-Driven Documents  
 7. [NVD3](http://nvd3.org/): Re-usable charts for d3.js. Other similar framework is : [C3.js](http://c3js.org/)  
-8. [bs_for_ember](https://github.com/ember-addons/bootstrap-for-ember): Bootstrap for Ember.js is a collection of UI components based on Twitter Bootstrap v3 for Ember.js  
-9. Others: npm, bower, grunt and their libraries  
+8. [bs_for_ember](https://github.com/ember-addons/bootstrap-for-ember): Bootstrap for Ember.js is a collection of UI components based on Twitter Bootstrap v3 for Ember.js
+9. [metisMenu](https://github.com/onokumus/metisMenu): Easy menu jQuery plugin for Twitter Bootstrap 3
+10. Others: npm, bower, grunt and their libraries  
 
 ## References
 * [Node, Grunt, Bower and Yeoman – A Modern web dev’s Toolkit](http://www.javacodegeeks.com/2014/08/node-grunt-bower-and-yeoman-a-modern-web-devs-toolkit.html)
