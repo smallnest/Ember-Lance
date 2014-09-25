@@ -29,24 +29,24 @@ Please visit wiki [Build](https://github.com/smallnest/Ember-Lance/wiki/Build) p
 ## Roadmap
 
 ### 1.0.1
-1. [cubism](https://github.com/square/cubism):  a D3 plugin for time series visualization  
-1. [ember-validations](https://github.com/dockyard/ember-validations): Validations for Ember Objects  
+1. [cubism](https://github.com/square/cubism):  a D3 plugin for time series visualization  √
+1. [ember-validations](https://github.com/dockyard/ember-validations): Validations for Ember Objects  √
 2. [addepar ember-widgets](https://github.com/addepar/ember-widgets):A powerful and easy to use component library for Ember.js  
 3. [ember-animated-outlet](https://github.com/billysbilling/ember-animated-outlet):  . Ember Animated Outlet is a plug'n'play module to support animated route transitions in Ember.js. Other similar frameworks are: <https://github.com/ef4/ember-animation-demo> and <https://github.com/gigafied/ember-animate>  
 
 
 ### 1.0.0
 create the first version with initial codes.  
-1. [yeoman](https://github.com/yeoman/generator-ember): use yeoman to create an initial scaffold.   
-2. [sb-admin2](https://github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/sb-admin-2): a dashboard template of bootstrap  
-3. [font-awesome](http://fortawesome.github.io/Font-Awesome/):  a font icon library  
-4. [Ember.js](http://emberjs.com/): A framework for creating ambitious web applications. Other similar frameworks are: Angular,Backbone, Knockout, CanJS  
-5. [Bootstrap](http://getbootstrap.com/): Actually Ember-Lance uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass)   
-6. [D3.js](http://d3js.org/): Data-Driven Documents  
-7. [NVD3](http://nvd3.org/): Re-usable charts for d3.js. Other similar framework is : [C3.js](http://c3js.org/)  
-8. [bs_for_ember](https://github.com/ember-addons/bootstrap-for-ember): Bootstrap for Ember.js is a collection of UI components based on Twitter Bootstrap v3 for Ember.js
-9. [metisMenu](https://github.com/onokumus/metisMenu): Easy menu jQuery plugin for Twitter Bootstrap 3
-10. Others: npm, bower, grunt and their libraries  
+1. [yeoman](https://github.com/yeoman/generator-ember): use yeoman to create an initial scaffold.   √
+2. [sb-admin2](https://github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/sb-admin-2): a dashboard template of bootstrap  √
+3. [font-awesome](http://fortawesome.github.io/Font-Awesome/):  a font icon library  √
+4. [Ember.js](http://emberjs.com/): A framework for creating ambitious web applications. Other similar frameworks are: Angular,Backbone, Knockout, CanJS  √
+5. [Bootstrap](http://getbootstrap.com/): Actually Ember-Lance uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) √  
+6. [D3.js](http://d3js.org/): Data-Driven Documents  √
+7. [NVD3](http://nvd3.org/): Re-usable charts for d3.js. Other similar framework is : [C3.js](http://c3js.org/)  √
+8. [bs_for_ember](https://github.com/ember-addons/bootstrap-for-ember): Bootstrap for Ember.js is a collection of UI components based on Twitter Bootstrap v3 for Ember.js √
+9. [metisMenu](https://github.com/onokumus/metisMenu): Easy menu jQuery plugin for Twitter Bootstrap 3 √
+10. Others: npm, bower, grunt and their libraries  √
 
 ## References
 * [Node, Grunt, Bower and Yeoman – A Modern web dev’s Toolkit](http://www.javacodegeeks.com/2014/08/node-grunt-bower-and-yeoman-a-modern-web-devs-toolkit.html)
