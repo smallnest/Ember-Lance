@@ -12,6 +12,7 @@ App.Router.map(function () {
 		this.route('typography', { path: 'typography' }, function () {});
 		this.route('grid', { path: 'grid' }, function () {});
 		this.route('form', { path: 'form' }, function () {});
+		this.route('bootgrid', { path: 'bootgrid' }, function () {});
     });
 	this.resource('plugins', { path: 'plugins' }, function () {
 		this.route('validation', { path: 'validation' }, function () {});

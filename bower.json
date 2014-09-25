@@ -12,7 +12,8 @@
     "nvd3": "~1.1.15-beta",
     "ember-addons.bs_for_ember": "~0.7.0",
     "cubism": "~1.6.0",
-	"ember-validations": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js"
+    "ember-validations": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js",
+    "jquery-bootgrid": "~1.1.1"
   },
   "devDependencies": {
     "ember-mocha-adapter": "0.1.2"
