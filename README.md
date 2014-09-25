@@ -3,6 +3,8 @@ Ember-Lance
 
 Dashboard Bootstrap implemented with Ember, D3.js and other third-party libraries 
 
+Please check [wiki](https://github.com/smallnest/Ember-Lance/wiki) to learn more.
+
 ---
 ##Project Description
 Ember_Lance is not a demo. It is not a tutorial too. It is an application reference architecture based on [Ember.js](http://emberjs.com/), [D3.js](http://d3js.org/) and other pragmatic programming technologies. It has picked many mainstream frameworks and libraries carefully and update them with the times.
@@ -21,21 +23,8 @@ I welcome your comments and suggestions whether you are a programmer or a custom
 ![screenshot](https://raw.githubusercontent.com/smallnest/Ember-Lance/master/screenshot2.png)
 
 ## Build
-you should install [compass](http://compass-style.org/install/) first. Compass is a Sass-based Stylesheet Framework that streamlines the creation and maintenance of CSS.
-You should install node.js and npm.
-You should install bower and grunt.
 
-Then you can git clone this project in your local environment and run if you only want to build and test front-end:
-``` sh
-	npm install
-	bower install
-	grunt serve
-```
-
-If you want to build a war you can run:
-``` sh
-	mvn package
-```
+Please visit wiki [Build](https://github.com/smallnest/Ember-Lance/wiki/Build) page.
 
 ## Roadmap
 
