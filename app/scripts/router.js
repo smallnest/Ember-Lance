@@ -13,4 +13,7 @@ App.Router.map(function () {
 		this.route('grid', { path: 'grid' }, function () {});
 		this.route('form', { path: 'form' }, function () {});
     });
+	this.resource('plugins', { path: 'plugins' }, function () {
+		this.route('validation', { path: 'validation' }, function () {});
+	});
 });

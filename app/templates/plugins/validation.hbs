@@ -1,0 +1,48 @@
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Ember Validation</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                   <form role="form">
+                                        <div {{bind-attr class=":form-group errors.name.firstObject:has-error"}}>
+											<label>Name</label>
+											{{view Ember.TextField valueBinding="name" class="form-control"}}
+											{{#if errors.name.firstObject}}
+												<i class="fa fa-exclamation-circle fa-lg text-danger"></i>
+												<span class="text-danger">{{errors.name}}</span>
+											{{/if}}
+										</div>
+								
+                                        <div {{bind-attr class=":form-group errors.uri.firstObject:has-error"}}>
+                                            <label>URI</label>
+											{{view Ember.TextField valueBinding="uri" class="form-control"}}
+											{{#if errors.uri.firstObject}}
+												<i class="fa fa-exclamation-circle fa-lg text-danger"></i>
+												<span class="text-danger">{{errors.uri}}</span>
+											{{/if}}
+                                        </div>
+                                        <div {{bind-attr class=":form-group errors.email.firstObject:has-error"}}>
+                                            <label>email</label>
+                                            {{view Ember.TextField valueBinding="email" class="form-control"}}
+											{{#if errors.email.firstObject}}
+												<i class="fa fa-exclamation-circle fa-lg text-danger"></i>
+												<span class="text-danger">{{errors.email}}</span>
+											{{/if}}
+                                        </div>
+										<div {{bind-attr class=":form-group errors.age.firstObject:has-error"}}>
+                                            <label>Age</label>
+                                            {{view Ember.TextField valueBinding="age" class="form-control"}}
+											{{#if errors.age.firstObject}}
+												<i class="fa fa-exclamation-circle fa-lg text-danger"></i>
+												<span class="text-danger">{{errors.age}}</span>
+											{{/if}}
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Submit Button</button>
+                                        <button type="reset" class="btn btn-default">Reset Button</button>
+                    </form>
+            </div>
+            <!-- /.row -->

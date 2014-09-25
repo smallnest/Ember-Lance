@@ -11,7 +11,8 @@
     "d3": "~3.4.11",
     "nvd3": "~1.1.15-beta",
     "ember-addons.bs_for_ember": "~0.7.0",
-    "cubism": "~1.6.0"
+    "cubism": "~1.6.0",
+	"ember-validations": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js"
   },
   "devDependencies": {
     "ember-mocha-adapter": "0.1.2"
